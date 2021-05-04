@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+/* Color Pettern https://colorhunt.co/palette/258165 */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* Code Clear Fix */
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Kanit', sans-serif;
+}
+/* Code Clear Fix */
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: url(/img/cover.jpg);
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+}
+.header_name {
+    color: white;
+}
+.header_text_on_cover {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px 8px #000000;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(61, 61, 61 , 0.4);
+    padding: 10px;
+}
+.header_menu h1 {
+    margin-left: 2rem;
+}
+.header_menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+.header_menu ul a {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+}
+.header_menu ul a:hover {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.content {
+    background: #fb743e;
+    height: 1000px;
+}
+
+.con_aboutme h1 {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 70px;
+}
+.con_aboutme p {
+    text-align: center;
+    margin: 10px 100px 30px 100px; /*Top Right Bottom Left*/
+    color: white;
+    font-size: 20px;
+}
+
+.portfolio h1 {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 70px;
+}
+.portfolio p {
+    text-align: center;
+    margin: 10px 100px 30px 100px; /*Top Right Bottom Left*/
+    color: white;
+    font-size: 20px;
+}
+.portfolio iframe {
+    margin-left: 20%;
+}
+.responsive-iframe {
+    position: absolute;
+    width: 61%;
+    height: 70%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header_menu {
+    overflow: hidden;
+    background-color: #333;
+}
